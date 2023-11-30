@@ -1,0 +1,31 @@
+{
+  "name": "fullcycle3.0-ci-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "npx jest --coverage"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronanrj/fullcyle3.0-ci-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronanrj/fullcyle3.0-ci-nodejs/issues"
+  },
+  "homepage": "https://github.com/ronanrj/fullcyle3.0-ci-nodejs#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.10",
+    "sonar-scanner": "^3.1.0"
+  }
+}
